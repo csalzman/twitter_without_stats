@@ -1,0 +1,7 @@
+Twitter without Stats
+
+This extension is an attempt to explore how quieting a few prominent stats on Twitter can effect personal behavior. 
+
+Stats--at their worst--can drive actions they shouldn't. Should your follower/following count effect when or what you tweet about? What about the number of tweets you've tweeted? Likewise, should we judge another twitter user based on those stats? I'll be the first to admit that I often consiously do. It makes me wonder about what I do subconciously.
+
+Technically speaking: there's not a lot going on here. The manifest holds Chrome extension metadata. The js file has the script that it injects. When the page loads, the stripping function runs. After that, it fires on every mouse click.
